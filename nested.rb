@@ -57,7 +57,7 @@ def dennis_ritchies_language
     return programmer_hash[:dennis_ritchie][:languages][0]
 end
 
-def adding_matz
+
 # add the following information to the top level of programmer_hash
 # :yukihiro_matsumoto => {
 #   :known_for => "Ruby",
@@ -65,6 +65,7 @@ def adding_matz
 # }
 # return the entire updated hash
 
+def adding_matz
 	programmer_hash = 
  		{
       :grace_hopper => {
@@ -85,9 +86,7 @@ def adding_matz
       :known_for => "Ruby",
       :languages => ["LISP", "C"]
     }
-    
     return programmer_hash
-
 end
 
 def changing_alan
